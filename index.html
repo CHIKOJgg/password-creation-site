@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="image-container">
+      <img src="imgs/mixtape-3440x1440.png" alt="" />
+      <div class="create-password-box"></div>
+      <div class="container">
+        <div class="create-box">
+          <div class="create-box-title"><h3>Create Password</h3></div>
+          <div class="create-button">
+            <button id="main-action-button">set up</button>
+          </div>
+          <div class="copy-block">
+            <div class="password-place">
+              <p id="password-place-text">press "set up" button</p>
+            </div>
+            <div id="copy-button">
+              <button class="copy-button-btn">
+                <img src="imgs/content-copy.svg" class="copy-icon" />
+              </button>
+            </div>
+          </div>
+          <div class="last-password-title">Previous passwords:</div>
+          <ul class="last-passwords-list">
+            <li class="previous-password" id="previous-password1"></li>
+            <li class="previous-password" id="previous-password2"></li>
+            <li class="previous-password" id="previous-password3"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
